@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Details</title>
+</head>
+<style>
+    .greenyellow{
+        background-color: greenyellow;
+    }
+    .blue{
+        background-color: blue;
+    }
+    .orangered{
+        background-color: orangered;
+    }
+
+</style>
+<style>
+    /* body{
+        /* display:flex; */
+        /* align-items: center;
+        justify-content: center; */
+        /* min-height: 100vh;
+        gap: 1rem;
+        font-size: 1.5rem;
+    } */
+    .code-input{
+        width: 10px;
+    }
+    /* fieldset{
+        display: flex;
+    } */
+</style>
+<body>
+    <center>
+        <table>
+            <strong>
+            <th bgcolor="green"><a href="./STEP 1.html"><button class="greenyellow">Step 1: Account</button></a></th>
+            <th  bgcolor="blue"><a href="./STEP2.html"><button class="blue">Step 2: Personal Details</button></a></th>
+            <th  bgcolor="red"><a href="./STEP3.html"><button class="orangered">Step 3: Your Review</button></a></th>
+            </strong>
+        </table>
+    </center>
+        <fieldset>
+            <legend>Personal Details</legend>
+            <strong>First Name:</strong><br>
+            <input type="text" placeholder="Enter First Name">
+            <br>
+            <br>
+            <strong>Last Name:</strong><br>
+            <input type="text" placeholder="Enter Last Name">
+            <br>
+            <br>
+            <fieldset class='number-code'>
+                <legend>CNIC NUMBER:</legend>
+                <div>
+                    <input type="code" class="code-input" required>
+                    <input type="code" class="code-input" required>
+                    <input type="code" class="code-input" required>
+                    <input type="code" class="code-input" required>
+                    <input type="code" class="code-input" required>
+                    -
+                    <input type="code" class="code-input" required>
+                    <input type="code" class="code-input" required>
+                    <input type="code" class="code-input" required>
+                    <input type="code" class="code-input" required>
+                    <input type="code" class="code-input" required>
+                    <input type="code" class="code-input" required>
+                    <input type="code" class="code-input" required>
+                    -
+                    <input type="code" class="code-input" required>
+                </div>
+                
+            </fieldset>
+            <br>
+            <br>
+            <strong>Social Link</strong>
+            <input type="link" placeholder="Enter Facebook/Linkedin profile link">
+            <br>
+            <br>
+        <div>
+            <a href="./STEP 1.html" target="_blank"><img src="./Images/back.png" width="120" height="50"></a>
+            <a href="./STEP3.html" target="_blank"><img src="./Images/next.png" width="120" height="50"></a>
+        </div>
+    </fieldset>
+</body>
+</html>
